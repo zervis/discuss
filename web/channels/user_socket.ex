@@ -12,7 +12,6 @@ defmodule Discuss.UserSocket do
       {:error, _error} ->
         :error
     end
-    {:ok, socket}
   end
 
   def id(_socket), do: nil
